@@ -1,0 +1,66 @@
+1-compression ratios:
+
+a-using file sizes:
+
+8by8:
+high = 49.95 %
+low= 10.5%
+
+16by16:
+
+high= 54.7%
+low= 13.63%
+
+
+********
+b-using  encoded arry size difference:
+
+low 8by8= 34.5%
+high 8by8= 76.23%
+
+16by16:
+
+low16by16=36.57% compression
+
+high16by16 = 77.97% compression
+
+-------------------------------------------------------------------------------------------------
+1- image quality :
+mean absolute error:
+8by8  :
+low:  error= 0.7164;
+high: error=5.208
+
+
+16by16:
+low: 2.2729
+high: 7.3
+
+
+------------------------------------------------------------------------------------------------------
+
+complexity:
+for 8by8 block-wise :
+
+low compression:
+
+FLOPS_compressJPEG = 285565974 
+FLOPS_decompressJPEG = 284899410 
+
+high compression:
+
+FLOPS_compressJPEG = 285413692 
+FLOPS_decompressJPEG = 284609440 
+
+**********
+for 16by16:
+
+low compression:
+
+FLOPS_compressJPEG = 1137833451 
+FLOPS_decompressJPEG = 1137161765 
+
+high compression:
+
+FLOPS_compressJPEG = 1137756018 
+FLOPS_decompressJPEG = 1137013508 

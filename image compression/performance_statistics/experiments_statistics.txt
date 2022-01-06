@@ -1,0 +1,52 @@
+compression Ratios
+
+gray image, high compression, with block size = 8: 
+compression ratio = 76.23
+
+gray image, high compression, with block size = 16: 
+compression ratio = 77.97
+
+gray image, low compression, with block size = 8: 
+compression ratio = 34.51
+
+gray image, low compression, with block size = 16: 
+compression ratio = 36.57
+
+rgb image, high compression, with block size = 8: 
+compression ratio = 82.88
+
+rgb image, high compression, with block size = 16: 
+compression ratio = 86.27
+
+rgb image, low compression, with block size = 8: 
+compression ratio = 51.49
+
+rgb image, low compression, with block size = 16: 
+compression ratio = 63.93
+**********************
+
+ reconstrction error (mean absolute):
+
+gray image, high compression, with block size = 8: 
+reconstruction error = 5.21
+
+gray image, high compression, with block size = 16: 
+reconstruction error = 7.30
+
+gray image, low compression, with block size = 8: 
+reconstruction error = 0.72
+
+gray image, low compression, with block size = 16: 
+reconstruction error = 2.27
+
+rgb image, high compression, with block size = 8: 
+reconstruction error = 12.79reconstruction error = 10.92reconstruction error = 10.59
+
+rgb image, high compression, with block size = 16: 
+reconstruction error = 13.12reconstruction error = 11.33reconstruction error = 11.05
+
+rgb image, low compression, with block size = 8: 
+reconstruction error = 12.82reconstruction error = 10.93reconstruction error = 10.60
+
+rgb image, low compression, with block size = 16: 
+reconstruction error = 13.33reconstruction error = 11.52reconstruction error = 11.24
